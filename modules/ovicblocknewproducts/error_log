@@ -1,0 +1,2 @@
+[24-Jul-2014 10:06:25 Europe/London] PHP Fatal error:  Call to undefined method OvicBlockNewProducts::ajaxCall() in /home/dev04ovi/public_html/tu/fashion/modules/ovicblocknewproducts/ovicblocknewproducts-ajax.php on line 8
+[24-Jul-2014 10:12:42 Europe/London] PHP Notice:  Undefined variable: page_name in /home/dev04ovi/public_html/tu/fashion/modules/ovicblocknewproducts/ovicblocknewproducts-ajax.php on line 8

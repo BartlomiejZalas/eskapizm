@@ -1,0 +1,11 @@
+[15-Jan-2015 08:06:30 Europe/Paris] PHP Notice:  Undefined index: itemId in /home/dev04ovi/public_html/tu/supershop/modules/oviccustombanner/backend.ajax.php on line 174
+[15-Jan-2015 08:06:30 Europe/Paris] PHP Fatal error:  Class 'OvicCustomBannerv' not found in /home/dev04ovi/public_html/tu/supershop/modules/oviccustombanner/backend.ajax.php on line 175
+[15-Jan-2015 08:11:31 Europe/Paris] PHP Fatal error:  Call to undefined method OvicCustomBannerAjax::loadBannerByLang() in /home/dev04ovi/public_html/tu/supershop/modules/oviccustombanner/backend.ajax.php on line 13
+[29-Jan-2015 03:11:02 Europe/Paris] PHP Notice:  Undefined variable: bannerName in /home/dev04ovi/public_html/tu/supershop/modules/oviccustombanner/backend.ajax.php on line 78
+[09-Mar-2015 04:25:57 Europe/Paris] PHP Notice:  Undefined variable: sql in /home/dev04ovi/public_html/tu/supershop/modules/ovicnewsletter/front-end-ajax.php on line 38
+[10-Mar-2015 04:36:25 Europe/Paris] PHP Notice:  Undefined variable: persistent in /home/dev04ovi/public_html/tu/supershop/modules/ovicnewsletter/front-end-ajax.php on line 9
+[10-Mar-2015 04:46:39 Europe/Paris] PHP Notice:  Undefined variable: persistent in /home/dev04ovi/public_html/tu/supershop/modules/ovicnewsletter/front-end-ajax.php on line 9
+[10-Mar-2015 07:45:22 Europe/Paris] PHP Notice:  Undefined variable: persistent in /home/dev04ovi/public_html/tu/supershop/modules/ovicnewsletter/front-end-ajax.php on line 9
+[10-Mar-2015 07:53:49 Europe/Paris] PHP Notice:  Undefined variable: persistent in /home/dev04ovi/public_html/tu/supershop/modules/ovicnewsletter/front-end-ajax.php on line 9
+[10-Mar-2015 05:22:52] PHP Notice:  Undefined variable: persistent in /home4/kutethem/public_html/demo/fashion/london-stars6/modules/ovicnewsletter/front-end-ajax.php on line 9
+[15-Sep-2015 00:20:13 America/New_York] PHP Notice:  Undefined variable: persistent in /home/dev03ovi/public_html/londonstars/modules/ovicnewsletter/front-end-ajax.php on line 9

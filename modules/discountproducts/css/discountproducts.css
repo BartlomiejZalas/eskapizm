@@ -1,0 +1,242 @@
+/********* discount products ***********/
+#discountproducts{
+    margin: 0;
+    padding: 0;
+    padding-right: 8px;
+}
+#discountproducts .heading-title{
+    margin: 0 0 25px;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 30px;
+}
+#discountproducts .heading-title .owl-carousel-button{
+    float: right;
+    display: inline-block;
+    margin-top: 0px;
+}
+@media (max-width: 420px) {
+    #discountproducts .heading-title .owl-carousel-button{
+        float: none;
+        margin-top: 12px;
+    }
+}
+#discountproducts ul.product_list{
+    margin: 0 14px;
+}
+#discountproducts ul.product_list.list  li.row{
+    margin-left: -10px;
+    margin-right: -10px;
+}
+#discountproducts ul.product_list.list > li .product-image-container{
+    max-width: 250px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#discountproducts ul.product_list.list > li .image-wrapper{
+    border: 1px solid #ccc;
+    padding: 9px;
+}
+#discountproducts ul.product_list.list .product-image-container .quick-view{
+    display: block;
+    position: absolute;
+    height: 40px;
+    width: 100%;
+    bottom: 0;
+    webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+    -moz-transition: opacity 0.5s, -moz-transform 0.5s;
+    -ms-transition: opacity 0.5s, -ms-transform 0.5s;
+    transition: opacity 0.5s, transform 0.5s;
+    -webkit-transform: translate(0,40px);
+    -moz-transform: translate(0,40px);
+    -o-transform: translate(0,40px);
+    -ms-transform: translate(0,40px);
+    transform: translate(0,40px);
+    opacity: 0;
+    visibility: hidden;
+}
+#discountproducts ul.product_list.list li:hover .product-image-container .quick-view{
+    -webkit-transform: translate(0,0);
+    -moz-transform: translate(0,0);
+    -o-transform: translate(0,0);
+    -ms-transform: translate(0,0);
+    transform: translate(0,0);
+    opacity: 1;
+    visibility: visible;
+}
+#discountproducts ul.product_list.list .product-image-container .quick-view span{
+    background: rgba(51,51,51,0.5);
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+#discountproducts ul.product_list.list .product-image-container .quick-view span:hover{
+    font-weight: normal;
+    background: #000;
+}
+@media (min-width: 1200px) {
+    #discountproducts ul.product_list.list > li .left-block{
+        width: 300px;
+        height: 320px;
+    }
+    #discountproducts ul.product_list.list  li .right-block{
+        width: 283px;
+    }
+}
+#discountproducts ul.product_list.list  li h5{
+    padding: 0 0 10px;
+}
+
+#discountproducts ul.product_list.list  li h5 a.product-name{
+    font-weight: normal;
+    color: #666;
+}
+#discountproducts ul.product_list.list  li .product-container{
+    border: none;
+}
+#discountproducts ul.product_list.list  li .content_price{
+    margin-bottom: 25px;
+}
+#discountproducts ul.product_list.list  li .price.product-price{
+    font-size: 18px;
+    margin-right: 10px;
+    color: #666;
+}
+#discountproducts ul.product_list.list  li .old-price.product-price{
+    font-size: 14px;
+    margin-right: 15px;
+}
+#discountproducts ul.product_list.list  li .price-percent-reduction{
+    background: #e05b6f;
+    position: relative;
+    color: #fff;
+}
+#discountproducts ul.product_list.list  li .price-percent-reduction:before {
+    position: absolute;
+    content: '';
+    border-style: solid;
+    top: calc(50% - 5px);
+    left: -4px;
+    border-width: 5px 5px 5px 0;
+    border-color: transparent #e05b6f transparent transparent;
+}
+#discountproducts ul.product_list.list  li .product-container .price-percent-reduction{
+    display: inline-block!important;
+    padding: 0px 5px;
+}
+#discountproducts ul.product_list.list  li .countdown-section{
+    background: #f6f6f6;
+    display: inline-block;
+    margin-right: 5px;
+    text-align: center;
+    padding: 5px 15px;
+    min-width: 52px;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    #discountproducts ul.product_list.list  li .countdown-section{
+        padding: 5px 0px;
+        margin-right: 2px;
+        min-width: 48px;
+    }
+}
+#discountproducts ul.product_list.list  li .countdown-section span{
+    display: block;
+}
+#discountproducts ul.product_list.list  li .countdown-section .countdown-amount{
+    font-size: 18px;
+    line-height: 20px;
+}
+#discountproducts ul.product_list.list  li .comments_note{
+    margin: 20px 0 -10px;
+}
+#discountproducts ul.product_list.list  li .product-desc{
+    min-height: 72px;
+    margin-top: 20px;
+}
+#discountproducts ul.product_list.list  li .product-container .button-container .button.ajax_add_to_cart_button{
+    background: #fff!important;
+    color: #666!important;
+    border: 1px solid #ccc;
+    float: left;
+    margin-right: 10px;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    #discountproducts ul.product_list.list  li .product-container .button-container .button.ajax_add_to_cart_button{
+        width: 90px;
+    }
+}
+#discountproducts ul.product_list.list  li .product-container .button-container .button.ajax_add_to_cart_button:hover{
+    background: #000!important;
+    color: #fff!important;
+    border-color: transparent;
+}
+#discountproducts ul.product_list.list  li .product-container .button-container .functional-buttons{
+    display: inline-block;
+    background: #fff!important;
+}
+#discountproducts ul.product_list.list  li .product-container .button-container .functional-buttons div{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+}
+#discountproducts ul.product_list.list  li .product-container .button-container .functional-buttons div:hover{
+    border-color: transparent;
+}
+#discountproducts ul.product_list .functional-buttons div.wishlist a,#discountproducts ul.product_list .functional-buttons div.compare a{
+    color: #999;
+    text-indent: 0;
+    font-size: 0;
+    width: 38px;
+    height: 38px;
+    text-align: center;
+    background: #fff;
+}
+
+#discountproducts ul.product_list .functional-buttons div.wishlist a:before, #discountproducts ul.product_list .functional-buttons div.compare a:before{
+    content: "\f004";
+    display: inline-block;
+    font-family: "FontAwesome";
+    font-size: 14px;
+    margin-right: 0;
+    width: 29px;
+    height: 29px;
+    line-height: 40px;
+    text-align: center;
+}
+#discountproducts ul.product_list .functional-buttons div.compare a:before{
+    content: "\f0ec";
+}
+#discountproducts ul.product_list .functional-buttons div.compare a.checked:before{
+    content: "\f14a";
+}
+#discountproducts ul.product_list .functional-buttons div.wishlist a:hover, #discountproducts ul.product_list .functional-buttons div.compare a:hover{
+    background: #000;
+}
+#discountproducts ul.product_list .functional-buttons div.wishlist a:hover:before, #discountproducts ul.product_list .functional-buttons div.compare a:hover:before{
+    color: #fff;
+}
+@media (max-width: 991px) {
+    #discountproducts ul.product_list.list > li .left-block,
+    #discountproducts ul.product_list.list > li .right-block{
+        width: 100%
+    }
+    #discountproducts ul.product_list.list > li .right-block{
+        margin-top: 15px;
+    }
+}
+@media (max-width: 767px) {
+    #discountproducts ul.product_list.list  li .countdown-section{
+        padding: 5px 0px;
+        margin-right: 2px;
+        min-width: 46px;
+    }
+    #discountproducts ul.product_list.list  li .product-container .button-container .button.ajax_add_to_cart_button{
+        width: 90px;
+        margin-right: 5px;
+    }
+    #discountproducts ul.product_list.list li .product-container .button-container .functional-buttons div{
+        margin-right: 5px;
+    }
+}

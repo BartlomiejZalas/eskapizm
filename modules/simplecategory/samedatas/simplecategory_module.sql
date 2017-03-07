@@ -1,0 +1,1 @@
+INSERT INTO PREFIX_simplecategory_module VALUES("1","1","category_id2","position_id","displayHomeBottomContent","12","date_add","desc","option1_tab","","0","all","2","2","2","auto","1","1","{\"color\":\"\",\"icon\":\"\",\"icon_active\":\"\"}");

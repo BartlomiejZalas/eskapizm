@@ -1,0 +1,167 @@
+.fa {
+	display: inline-block;
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+    
+}
+.fa-time:before {
+  content: "\f00d";
+}
+
+#overlay{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 9999;
+    opacity:0.8;
+    filter:alpha(opacity=80);
+    background: black;
+    width: 100%;
+    height: 100%;
+}
+
+.ovicnewsletter{
+    width: 500px;
+    background: #fff;
+    z-index: 99991;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -250px;
+    margin-top: -150px;
+    text-align: left;
+}
+@media (max-width: 499px) {
+    .ovicnewsletter{
+        width: 100%;        
+        margin-left: 0;
+        left: 0;
+    }
+}
+.ovicnewsletter .inner{
+    position:  relative;
+}
+.ovicnewsletter-close{
+    width: 28px;
+    height: 28px;
+    background: #000;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+}
+.ovicnewsletter-close:hover{
+    background-color:#222;
+}
+.ovicnewsletter-close a{
+    display: block;
+    line-height: 26px;
+    color: #fff !important;
+    font-family: monospace;
+    font-size: 20px;
+    font-size: 18px;
+} 
+.ovicnewsletter .inner{
+    padding: 15px 20px;
+}
+
+.input-email{
+    background: #fff;
+    border: 1px solid #CCCCCC;
+    height: 30px;
+    margin-right: -5px;
+    padding: 0 10px 4px;
+    width: 230px;
+}
+.newsletter-form .button{
+    overflow: hidden;    
+    padding: 4px 15px 6px;
+    background: #666!important;
+    color: #fff !important;
+    border: none;
+    height: 30px;
+    overflow: hidden;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+    ::i-block-chrome,.newsletter-form .button {
+        margin-top: -5px;
+    }
+}
+.newsletter-form a.button:hover{
+    background-color:#777!important
+}
+
+@font-face {
+    font-family: "UTM avo";
+    src: url("fonts/utm-avo.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "UTM Swiss Condensed";
+    src: url("fonts/UTM Swiss Condensed.ttf") format("truetype");
+}
+
+p.text-n1{
+    color: #666;
+    font-family: sans-serif;
+}
+p.text-n2{
+    font-family: UTM avo;
+    font-size: 48px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    color: #cc0000;
+    margin-top: 15px;
+}
+p.text-n3{
+    font-family: UTM Swiss Condensed;
+    line-height: 60px;
+    margin-top: 15px;
+    display: inline-block;
+    font-size: 110px;
+    vertical-align: middle;
+    color: #333333;
+}
+p.text-n3 strong{
+    color: #E52E04;
+    font-family: UTM Swiss Condensed;
+    font-size: 92px;   
+}
+p.text-n4{
+    font-family: UTM Swiss Condensed;
+    display: inline-block;
+    line-height: 30px;
+    vertical-align: middle;
+    margin-top: 10px;
+    color: #333333;
+}
+span.text-4{
+    font-size: 32px;
+}
+p.text-n6{
+    font-family: sans-serif;
+    margin-bottom: 0px;
+    margin-top: 30px;
+}
+.input-email{
+    color: #666;
+}
+#regisNewsletterMessage{
+    height: 16px;
+    width: 100%;
+    display: block;
+    color: red;
+}
+#regisNewsletterMessage.error{color: red;}
+#regisNewsletterMessage.success{color: green;}
+.newsletter-form{
+    font-size: 14px !important;
+    margin-top: 6px;
+}
+

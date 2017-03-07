@@ -1,0 +1,7 @@
+.tr-selected td{
+    background: #D7DBE3 !important;
+}
+a.color-red{color: red !important;}
+a.list-action-enable{
+	cursor: pointer;
+}

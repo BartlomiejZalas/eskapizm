@@ -1,0 +1,84 @@
+#special_block_right .block_content {
+    padding-top: 20px;
+}
+@media (min-width: 768px) {
+    #special_block_right .title_block {
+        padding: 15px 5px;
+        text-align: center;
+    }
+    #special_block_right .title_block a {
+        width: 100%;
+        font-size: 30px;
+        font-weight: 500;
+    }
+    #special_block_right .title_block .sub_title {
+        display: inline-block;
+        width: 100%;
+        font-size: 14px;
+        font-weight: 500;
+    }
+}
+@media (max-width: 767px) {
+    #special_block_right .title_block .sub_title { display: none;}
+}
+#special_block_right .slide-item .product-item {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+#special_block_right .slide-item .product-item a.products-block-image {
+    display: block;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+@media (min-width: 1200px) {
+    #special_block_right .slide-item .product-item a.products-block-image {
+        margin-right: 15px;
+    }    
+}
+#special_block_right .slide-item .product-item h5 {margin: 0;}
+#special_block_right .slide-item .product-item a.product-name {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+    line-height: 24px;
+}
+#special_block_right .slide-item .product-item .price-box {margin-top: 7px;}
+#special_block_right .slide-item .product-item .price.special-price {
+    font-size: 18px;
+    color: #666;
+    margin-right: 15px;
+}
+#special_block_right_slide .owl-buttons {
+    text-align: center;
+    margin-bottom: 10px;
+}
+#special_block_right_slide .slide-item .product-item .old-price {
+    font-size: 14px;
+    color: #999;
+}
+#special_block_right_slide .owl-next, #special_block_right_slide .owl-prev {
+    width: 74px;
+    height: 31px;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    text-indent: -9999px;
+    background: url(img/prev_slide_bg.png) 0 center no-repeat transparent;
+    transition: all ease 0.8s!important;
+}
+#special_block_right_slide .owl-next {
+    background: url(img/next_slide_bg.png) -74px center no-repeat transparent;
+}
+#special_block_right_slide .owl-next:hover {
+    background-position: 0 center;
+    background-color: #333333; 
+}
+#special_block_right_slide .owl-prev:hover {
+    background-position: -74px center;
+    background-color: #333333; 
+}

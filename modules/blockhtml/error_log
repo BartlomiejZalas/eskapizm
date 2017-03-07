@@ -1,0 +1,34 @@
+[12-Nov-2014 22:19:21 America/Chicago] PHP Fatal error:  Class 'Tools' not found in /home/dev04ovi/public_html/tu/nella/modules/blockhtml/ajaxhtml.php on line 4
+[13-Nov-2014 05:21:14 Europe/Paris] PHP Fatal error:  Call to undefined method BlockHtml::AjaxCall() in /home/dev04ovi/public_html/tu/nella/modules/blockhtml/ajaxhtml.php on line 8
+[13-Nov-2014 05:21:17 Europe/Paris] PHP Fatal error:  Call to undefined method BlockHtml::AjaxCall() in /home/dev04ovi/public_html/tu/nella/modules/blockhtml/ajaxhtml.php on line 8
+[13-Nov-2014 05:22:04 Europe/Paris] PHP Notice:  Undefined index: langguages in /home/dev04ovi/public_html/tu/nella/cache/smarty/compile/f8/bd/5d/f8bd5d1ea0b1eb800b53c521fe29039df0a2c0d9.file.html_content.tpl.php on line 34
+[13-Nov-2014 05:22:04 Europe/Paris] PHP Notice:  Trying to get property of non-object in /home/dev04ovi/public_html/tu/nella/cache/smarty/compile/f8/bd/5d/f8bd5d1ea0b1eb800b53c521fe29039df0a2c0d9.file.html_content.tpl.php on line 34
+[13-Nov-2014 05:22:04 Europe/Paris] PHP Notice:  Undefined index: langguages in /home/dev04ovi/public_html/tu/nella/cache/smarty/compile/f8/bd/5d/f8bd5d1ea0b1eb800b53c521fe29039df0a2c0d9.file.html_content.tpl.php on line 65
+[13-Nov-2014 05:22:04 Europe/Paris] PHP Notice:  Trying to get property of non-object in /home/dev04ovi/public_html/tu/nella/cache/smarty/compile/f8/bd/5d/f8bd5d1ea0b1eb800b53c521fe29039df0a2c0d9.file.html_content.tpl.php on line 65
+[13-Nov-2014 05:25:58 Europe/Paris] PHP Notice:  Undefined index: langguages in /home/dev04ovi/public_html/tu/nella/cache/smarty/compile/f8/bd/5d/f8bd5d1ea0b1eb800b53c521fe29039df0a2c0d9.file.html_content.tpl.php on line 34
+[13-Nov-2014 05:25:58 Europe/Paris] PHP Notice:  Trying to get property of non-object in /home/dev04ovi/public_html/tu/nella/cache/smarty/compile/f8/bd/5d/f8bd5d1ea0b1eb800b53c521fe29039df0a2c0d9.file.html_content.tpl.php on line 34
+[13-Nov-2014 05:25:58 Europe/Paris] PHP Notice:  Undefined index: langguages in /home/dev04ovi/public_html/tu/nella/cache/smarty/compile/f8/bd/5d/f8bd5d1ea0b1eb800b53c521fe29039df0a2c0d9.file.html_content.tpl.php on line 64
+[13-Nov-2014 05:25:58 Europe/Paris] PHP Notice:  Trying to get property of non-object in /home/dev04ovi/public_html/tu/nella/cache/smarty/compile/f8/bd/5d/f8bd5d1ea0b1eb800b53c521fe29039df0a2c0d9.file.html_content.tpl.php on line 64
+[13-Nov-2014 05:27:42 Europe/Paris] PHP Notice:  Undefined index: lang_ul in /home/dev04ovi/public_html/tu/nella/cache/smarty/compile/f8/bd/5d/f8bd5d1ea0b1eb800b53c521fe29039df0a2c0d9.file.html_content.tpl.php on line 51
+[13-Nov-2014 05:27:42 Europe/Paris] PHP Notice:  Trying to get property of non-object in /home/dev04ovi/public_html/tu/nella/cache/smarty/compile/f8/bd/5d/f8bd5d1ea0b1eb800b53c521fe29039df0a2c0d9.file.html_content.tpl.php on line 51
+[13-Nov-2014 05:27:42 Europe/Paris] PHP Notice:  Undefined index: lang_ul in /home/dev04ovi/public_html/tu/nella/cache/smarty/compile/f8/bd/5d/f8bd5d1ea0b1eb800b53c521fe29039df0a2c0d9.file.html_content.tpl.php on line 51
+[13-Nov-2014 05:27:42 Europe/Paris] PHP Notice:  Trying to get property of non-object in /home/dev04ovi/public_html/tu/nella/cache/smarty/compile/f8/bd/5d/f8bd5d1ea0b1eb800b53c521fe29039df0a2c0d9.file.html_content.tpl.php on line 51
+[13-Nov-2014 05:27:42 Europe/Paris] PHP Notice:  Undefined index: lang_ul in /home/dev04ovi/public_html/tu/nella/cache/smarty/compile/f8/bd/5d/f8bd5d1ea0b1eb800b53c521fe29039df0a2c0d9.file.html_content.tpl.php on line 81
+[13-Nov-2014 05:27:42 Europe/Paris] PHP Notice:  Trying to get property of non-object in /home/dev04ovi/public_html/tu/nella/cache/smarty/compile/f8/bd/5d/f8bd5d1ea0b1eb800b53c521fe29039df0a2c0d9.file.html_content.tpl.php on line 81
+[13-Nov-2014 05:27:42 Europe/Paris] PHP Notice:  Undefined index: lang_ul in /home/dev04ovi/public_html/tu/nella/cache/smarty/compile/f8/bd/5d/f8bd5d1ea0b1eb800b53c521fe29039df0a2c0d9.file.html_content.tpl.php on line 81
+[13-Nov-2014 05:27:42 Europe/Paris] PHP Notice:  Trying to get property of non-object in /home/dev04ovi/public_html/tu/nella/cache/smarty/compile/f8/bd/5d/f8bd5d1ea0b1eb800b53c521fe29039df0a2c0d9.file.html_content.tpl.php on line 81
+[13-Nov-2014 05:29:24 Europe/Paris] PHP Notice:  Undefined variable: isoTinyMCE in /home/dev04ovi/public_html/tu/nella/modules/blockhtml/blockhtml.php on line 130
+[13-Nov-2014 05:29:24 Europe/Paris] PHP Notice:  Undefined variable: ad in /home/dev04ovi/public_html/tu/nella/modules/blockhtml/blockhtml.php on line 132
+[13-Nov-2014 05:29:35 Europe/Paris] PHP Notice:  Undefined variable: isoTinyMCE in /home/dev04ovi/public_html/tu/nella/modules/blockhtml/blockhtml.php on line 130
+[13-Nov-2014 05:29:35 Europe/Paris] PHP Notice:  Undefined variable: ad in /home/dev04ovi/public_html/tu/nella/modules/blockhtml/blockhtml.php on line 132
+[13-Nov-2014 05:29:42 Europe/Paris] PHP Notice:  Undefined variable: isoTinyMCE in /home/dev04ovi/public_html/tu/nella/modules/blockhtml/blockhtml.php on line 130
+[13-Nov-2014 05:29:42 Europe/Paris] PHP Notice:  Undefined variable: ad in /home/dev04ovi/public_html/tu/nella/modules/blockhtml/blockhtml.php on line 132
+[13-Nov-2014 05:31:32 Europe/Paris] PHP Notice:  Undefined variable: isoTinyMCE in /home/dev04ovi/public_html/tu/nella/modules/blockhtml/blockhtml.php on line 130
+[13-Nov-2014 05:31:32 Europe/Paris] PHP Notice:  Undefined variable: ad in /home/dev04ovi/public_html/tu/nella/modules/blockhtml/blockhtml.php on line 132
+[13-Nov-2014 05:37:28 Europe/Paris] PHP Notice:  Undefined variable: isoTinyMCE in /home/dev04ovi/public_html/tu/nella/modules/blockhtml/blockhtml.php on line 130
+[13-Nov-2014 05:37:28 Europe/Paris] PHP Notice:  Undefined variable: ad in /home/dev04ovi/public_html/tu/nella/modules/blockhtml/blockhtml.php on line 132
+[13-Nov-2014 05:37:33 Europe/Paris] PHP Notice:  Undefined variable: isoTinyMCE in /home/dev04ovi/public_html/tu/nella/modules/blockhtml/blockhtml.php on line 130
+[13-Nov-2014 05:37:33 Europe/Paris] PHP Notice:  Undefined variable: ad in /home/dev04ovi/public_html/tu/nella/modules/blockhtml/blockhtml.php on line 132
+[13-Nov-2014 10:14:15 Europe/Paris] PHP Parse error:  syntax error, unexpected '$id_position' (T_VARIABLE) in /home/dev04ovi/public_html/tu/nella/modules/blockhtml/blockhtml.php on line 119
+[13-Nov-2014 10:14:20 Europe/Paris] PHP Parse error:  syntax error, unexpected '$id_position' (T_VARIABLE) in /home/dev04ovi/public_html/tu/nella/modules/blockhtml/blockhtml.php on line 119
+[13-Nov-2014 10:14:23 Europe/Paris] PHP Parse error:  syntax error, unexpected '$id_position' (T_VARIABLE) in /home/dev04ovi/public_html/tu/nella/modules/blockhtml/blockhtml.php on line 119

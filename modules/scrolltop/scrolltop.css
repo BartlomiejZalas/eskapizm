@@ -1,0 +1,12 @@
+.mypresta_scrollup{
+    width:50px;
+    height:48px;
+    position:fixed;
+    display:none;
+    text-indent:-9999px;
+    z-index: 9999;
+}
+.mypresta_scrollup:hover {
+    transition: all ease 0.3s;
+    opacity: 0.9!important;
+}

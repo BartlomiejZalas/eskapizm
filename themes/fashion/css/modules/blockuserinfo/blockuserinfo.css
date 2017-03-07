@@ -1,0 +1,14 @@
+.header_user_info {
+    float: right;
+    margin: 20px 45px 20px 0;
+ }
+ 
+  .header_user_info a {
+    color: white;
+    display: block;
+    padding: 8px 9px 11px 8px;
+    cursor: pointer;
+    float: right;}
+    @media (max-width: 479px) {
+      .header_user_info a {
+        font-size: 11px; } }

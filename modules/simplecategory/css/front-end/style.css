@@ -1,0 +1,9 @@
+.simplecategory-default .rating .topbar,
+.simplecategory .rating .topbar{
+	display: none;
+}
+
+.lookbook .actions-wrapper > a{
+    float: left;
+    margin-left: 10px;
+} 

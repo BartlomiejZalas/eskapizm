@@ -1,0 +1,93 @@
+/* Block newsletter */
+#newsletter_block_left.fashion_module {
+	padding: 30px;
+	border: none;
+	background: url(img/newsletter_bg.jpg) 0 0 no-repeat #f6f6f6;
+	width: 100%;
+	min-height: 495px;
+	margin-bottom: 0;
+    border: 1px solid #ccc;
+    float: left;
+}
+@media (max-width: 767px) {
+    #newsletter_block_left.fashion_module {
+    	min-height: 350px;
+        background-position: 0 18%;
+    }
+}
+#newsletter_block_left.fashion_module .title_block, #newsletter_block_left.fashion_module h4  {
+	padding: 0;
+    color: #666;
+    font-weight: 300;
+    font-size: 30px;
+    margin-bottom: 0;
+    line-height: 30px;
+}
+#newsletter_block_left.fashion_module p.sub_title {
+    padding:0;
+    margin: 30px 0;
+    font-size: 14px;
+    color: #666;
+    
+}
+#newsletter_block_left.fashion_module p.success_inline {
+	color: #3BA203;
+    text-align: center;
+    font-weight: normal;
+    margin: 0 0 10px 0;
+    padding: 10px;
+    border: 1px solid #17B909;
+    font-size: 14px;
+    background: #fafafa;
+    clear: both;
+}
+#newsletter_block_left.fashion_module p.warning_inline {
+	color: #DA0F00;
+    text-align: center;
+    font-weight: normal;
+    margin: 0 0 10px 0;
+    padding: 10px;
+    border: 1px solid #e6db55;
+    font-size: 14px;
+    background: #ffffe0;
+    clear: both;
+}
+#newsletter_block_left.fashion_module input.inputNew {
+	border: none;
+    margin-top: 20px;
+    height: 34px;
+    line-height: 34px;
+    padding-left: 10px;
+}
+@media screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio:0) { 
+/* Safari and Chrome */
+    #newsletter_block_left.fashion_module input.inputNew {
+        line-height: 20px;
+    }
+     /* Safari only override */
+    ::i-block-chrome,#newsletter_block_left.fashion_module input.inputNew {
+        line-height: 20px;
+    }
+}
+#newsletter_block_left.fashion_module button.button {
+    float: right;
+    padding: 0 30px;
+    background: #333;
+    border: none;
+    border: navajowhite;
+    color: #FFF;
+    height: 40px;
+} 
+#newsletter_block_left.fashion_module button.button:hover {
+    transition: all ease 0.3s;
+    background: #000;
+}
+@media (max-width:991px) {
+    #fashion_newsletter_hook {
+        margin: 30px 0 0 0;
+        float: left;
+        width: 100%;
+    }
+}
+
+#index .columns-container p.warning, #index .columns-container p.success {display: none;}

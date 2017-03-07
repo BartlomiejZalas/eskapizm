@@ -1,0 +1,20 @@
+.parallax {
+  -webkit-background-size: cover;
+  background-size: cover;
+  /*background-attachment: fixed;*/
+  background-repeat: repeat-y;
+  background-position: 0 0;
+}
+.parallax-section {
+  /*background-attachment: fixed;*/
+  background-size: cover;
+  background-repeat: repeat-y;
+  overflow: hidden;
+}
+.parallax-overlay{background-color: rgba(0,0,0,0.7);}
+@media (min-width: 1200px) {
+    .parallax {
+        background-attachment: fixed;}
+    .parallax-section {
+        background-attachment: fixed;}
+}

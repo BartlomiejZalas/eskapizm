@@ -1,0 +1,5 @@
+[25-Jul-2014 03:20:46 Europe/London] PHP Notice:  Undefined variable: params in /home/dev04ovi/public_html/tu/fashion/modules/ovicblockbestsellers/ovicblockbestsellers-ajax.php on line 8
+[25-Jul-2014 03:22:11 Europe/London] PHP Notice:  Undefined variable: params in /home/dev04ovi/public_html/tu/fashion/modules/ovicblockbestsellers/ovicblockbestsellers.php on line 206
+[25-Jul-2014 03:22:11 Europe/London] PHP Notice:  Trying to get property of non-object in /home/dev04ovi/public_html/tu/fashion/modules/ovicblockbestsellers/ovicblockbestsellers.php on line 286
+[25-Jul-2014 03:22:11 Europe/London] PHP Notice:  Trying to get property of non-object in /home/dev04ovi/public_html/tu/fashion/modules/ovicblockbestsellers/ovicblockbestsellers.php on line 289
+[25-Jul-2014 03:24:31 Europe/London] PHP Notice:  Undefined variable: params in /home/dev04ovi/public_html/tu/fashion/modules/ovicblockbestsellers/ovicblockbestsellers.php on line 206
