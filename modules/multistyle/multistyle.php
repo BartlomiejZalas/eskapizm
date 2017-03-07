@@ -24,7 +24,7 @@ class MultiStyle extends Module
 
 	public function install()
 	{
-        $defaultfont  = htmlentities("<link href='http://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700' rel='stylesheet' type='text/css'>");
+        $defaultfont  = htmlentities("<link href='https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700' rel='stylesheet' type='text/css'>");
         if (is_string($defaultfont) === true)
         	$defaultfont = urldecode(preg_replace('/((\%5C0+)|(\%00+))/i', '', urlencode($defaultfont)));
         $defaultfont = !is_string($defaultfont)? $defaultfont : stripslashes($defaultfont);
